@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sakklepesek_NagyDominik"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Sakklépések - Nagy Dominik" Height="400" Width="350">
     <Grid>
-        
+        <ComboBox x:Name="Figura" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="75,10,0,0">
+            <ComboBoxItem Content="Bástya" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
+            <ComboBoxItem Content="Lovag" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
+            <ComboBoxItem Content="Futó" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
+            <ComboBoxItem Content="Király" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
+            <ComboBoxItem Content="Királynő" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
+            <ComboBoxItem Content="FehérGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
+            <ComboBoxItem Content="FeketeGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
+        </ComboBox>
+
     </Grid>
 </Window>
