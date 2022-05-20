@@ -21,30 +21,27 @@ namespace Sakklepesek_NagyDominik
         {
             InitializeComponent();
             TablaGeneral();
-
         }
-
         private void TablaGeneral()
         {
-
-
+            //Sorok és oszlopok definiálása
             for (int i = 0; i < 8; i++)
             {
                 Tabla.RowDefinitions.Add(new RowDefinition());
                 Tabla.ColumnDefinitions.Add(new ColumnDefinition());
             }
+            //Buttonok létrehozása
             for (int i = 0; i < 8; i++)
             {
-                for (int j = 1; j < 9; j++)
+                for (int j = 0; j < 8; j++)
                 {
                     Button y = new Button();
-                    y.Content = j + $"{i + 1}";
+                    y.Content = $"{j + 1}" + $"{i + 1}";
                     y.Height = 30;
                     y.Width = 30;
                     Grid.SetColumn(y, i);
                     Grid.SetRow(y, j);
                     Tabla.Children.Add(y);
-
                 }
             }
         }
