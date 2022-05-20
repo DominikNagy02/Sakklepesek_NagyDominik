@@ -41,9 +41,16 @@ namespace Sakklepesek_NagyDominik
                     gomb.Width = 30;
                     Grid.SetColumn(gomb, i);
                     Grid.SetRow(gomb, j);
+                    gomb.Click += Helyzet;
                     Tabla.Children.Add(gomb);
                 }
             }
+        }
+        private void Helyzet(object sender, RoutedEventArgs e)
+        {
+            Button gomb = (Button)sender;
+            String GombHelye = gomb.Content.ToString();
+            HelyKiiras.Content = "Bábu helye: " + GombHelye;
         }
     }
 }
