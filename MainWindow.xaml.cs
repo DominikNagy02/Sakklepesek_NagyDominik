@@ -35,13 +35,13 @@ namespace Sakklepesek_NagyDominik
             {
                 for (int j = 0; j < 8; j++)
                 {
-                    Button y = new Button();
-                    y.Content = $"{j + 1}" + $"{i + 1}";
-                    y.Height = 30;
-                    y.Width = 30;
-                    Grid.SetColumn(y, i);
-                    Grid.SetRow(y, j);
-                    Tabla.Children.Add(y);
+                    Button gomb = new Button();
+                    gomb.Content = $"{j + 1}" + $"{i + 1}";
+                    gomb.Height = 30;
+                    gomb.Width = 30;
+                    Grid.SetColumn(gomb, i);
+                    Grid.SetRow(gomb, j);
+                    Tabla.Children.Add(gomb);
                 }
             }
         }

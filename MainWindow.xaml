@@ -16,7 +16,9 @@
             <ComboBoxItem Content="FehérGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
             <ComboBoxItem Content="FeketeGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
         </ComboBox>
-        <Grid x:Name="Tabla" HorizontalAlignment="Center" Height="240" Margin="0,40,0,0" VerticalAlignment="Top" Width="240"/>
+        <Grid x:Name="Tabla" HorizontalAlignment="Center" Height="240" Margin="0,40,0,0" VerticalAlignment="Top" Width="240">
+            <Label x:Name="Helyzet" Content="Bábu helye: &#xD;&#xA;Lehetséges lépések: " HorizontalAlignment="Center" Margin="0,250,0,0" Width="300" Height="70"/>
+        </Grid>
 
     </Grid>
 </Window>
