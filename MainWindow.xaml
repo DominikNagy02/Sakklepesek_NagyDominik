@@ -16,6 +16,7 @@
             <ComboBoxItem Content="FehérGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
             <ComboBoxItem Content="FeketeGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
         </ComboBox>
+        <Grid x:Name="Tabla" HorizontalAlignment="Center" Height="240" Margin="0,40,0,0" VerticalAlignment="Top" Width="240"/>
 
     </Grid>
 </Window>
