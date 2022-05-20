@@ -8,16 +8,16 @@
         Title="Sakklépések - Nagy Dominik" Height="400" Width="350">
     <Grid>
         <ComboBox x:Name="Figura" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="75,10,0,0">
-            <ComboBoxItem Content="Bástya" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
-            <ComboBoxItem Content="Lovag" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
-            <ComboBoxItem Content="Futó" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
-            <ComboBoxItem Content="Király" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
-            <ComboBoxItem Content="Királynő" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
-            <ComboBoxItem Content="FehérGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
-            <ComboBoxItem Content="FeketeGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198"/>
+            <ComboBoxItem x:Name="Bastya" Content="Bástya" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198" Selected="Bastya_Selected"/>
+            <ComboBoxItem x:Name="Lovag" Content="Lovag" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198" Selected="Lovag_Selected"/>
+            <ComboBoxItem x:Name="Futo" Content="Futó" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198" Selected="Futo_Selected"/>
+            <ComboBoxItem x:Name="Kiraly" Content="Király" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198" Selected="Kiraly_Selected"/>
+            <ComboBoxItem x:Name="KiralyNo" Content="Királynő" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198" Selected="KiralyNo_Selected"/>
+            <ComboBoxItem x:Name="FeherGyalog" Content="FehérGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198" Selected="FeherGyalog_Selected"/>
+            <ComboBoxItem x:Name="FeketeGyalog" Content="FeketeGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198" Selected="FeketeGyalog_Selected"/>
         </ComboBox>
         <Grid x:Name="Tabla" HorizontalAlignment="Center" Height="240" Margin="0,40,0,0" VerticalAlignment="Top" Width="240"/>
-        <Label x:Name="HelyKiiras" Content="Bábu helye:" HorizontalAlignment="Center" Height="70" Width="300" Margin="0,280,0,0"/>
+        <Label x:Name="HelyKiiras" Content="" HorizontalAlignment="Center" Height="70" Width="300" Margin="0,280,0,0"/>
 
     </Grid>
 </Window>
