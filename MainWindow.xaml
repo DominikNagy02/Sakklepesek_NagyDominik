@@ -17,7 +17,7 @@
             <ComboBoxItem x:Name="FeketeGyalog" Content="FeketeGyalog" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Width="198" Selected="FeketeGyalog_Selected"/>
         </ComboBox>
         <Grid x:Name="Tabla" HorizontalAlignment="Center" Height="240" Margin="0,40,0,0" VerticalAlignment="Top" Width="240"/>
-        <Label x:Name="HelyKiiras" Content="" HorizontalAlignment="Center" Height="70" Width="300" Margin="0,280,0,0"/>
+        <TextBlock x:Name="HelyKiiras" Text="" HorizontalAlignment="Center" Height="70" Width="300" Margin="0,280,0,0"/>
 
     </Grid>
 </Window>
